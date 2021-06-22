@@ -1,0 +1,84 @@
+:root {
+    --color-primary: #0096cc;
+    --color-primary-dark: #005472;
+    --color-primary-dark-2: #004159;
+
+    --color-white: #eee;
+    --color-black: #0f0f0f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: var(--color-primary-dark);
+}
+
+.logo {
+    font-size: 30px;
+    color: var(--color-white);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--color-white);
+    transition: all .2s ease;
+}
+
+nav ul li a:hover {
+    color: var(--color-primary);
+}
+
+
+.btn {
+    font-size: 15px;
+    color: var(--color-white);
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 10vh;
+    transition: all .2s ease;
+}
+
+.btn-1 {
+    margin-right: 10px;
+    background-color: var(--color-primary);
+    border: 2px solid transparent;
+}
+
+.btn-1:hover {
+    border: 2px solid var(--color-primary);
+    background-color:transparent;
+}
+
+.btn-2 {
+    border: 2px solid var(--color-primary);
+}
+
+.btn-2:hover {
+    border: 2px solid transparent;
+    background-color: var(--color-primary);
+}
